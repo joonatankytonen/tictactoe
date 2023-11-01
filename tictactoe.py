@@ -1,4 +1,5 @@
 import random
+import time
 
 a1 = " "
 a2 = " "
@@ -64,7 +65,7 @@ while True:
         print("VIRHE!!!!!\n\n")
         continue
 
-
+    time.sleep(0.4)
     print("     1   2   3")
     print("    ------------")
     print(f"a  | {a1} | {a2} | {a3} |")
@@ -134,7 +135,7 @@ while True:
         c3 = bottinappula
         laatikot.remove("c3")
 
-
+    time.sleep(0.4)
     print("     1   2   3")
     print("    ------------")
     print(f"a  | {a1} | {a2} | {a3} |")
@@ -169,4 +170,3 @@ while True:
     elif a3 == bottinappula and b2 == bottinappula and c1 == bottinappula:
         print("BOTTI VOITTI.... SÄ HÄVISIT... OOT IHAN PASKA...\n\n")
         break
-    
